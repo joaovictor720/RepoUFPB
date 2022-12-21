@@ -1,0 +1,7 @@
+
+State Machine - |maquina_de_cafe|estado_atual
+Name estado_atual.enchendo_cafe estado_atual.pronto estado_atual.enchendo_leite estado_atual.espera 
+estado_atual.espera 0 0 0 0 
+estado_atual.enchendo_leite 0 0 1 1 
+estado_atual.pronto 0 1 0 1 
+estado_atual.enchendo_cafe 1 0 0 1 

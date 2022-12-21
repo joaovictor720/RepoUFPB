@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "verdeA",
+					"strict" : false
+				},
+				{
+					"name" : "verdeB",
+					"strict" : false
+				},
+				{
+					"name" : "amareloA",
+					"strict" : false
+				},
+				{
+					"name" : "amareloB",
+					"strict" : false
+				},
+				{
+					"name" : "vermelhoA",
+					"strict" : false
+				},
+				{
+					"name" : "vermelhoB",
+					"strict" : false
+				},
+				{
+					"name" : "modo",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

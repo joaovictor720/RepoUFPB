@@ -1,0 +1,44 @@
+|contador_hex
+clk => contador~1.DATAIN
+modo => Selector15.IN3
+modo => Selector0.IN3
+modo => Selector1.IN3
+modo => Selector2.IN3
+modo => Selector3.IN3
+modo => Selector4.IN3
+modo => Selector5.IN3
+modo => Selector6.IN3
+modo => Selector7.IN3
+modo => Selector8.IN3
+modo => Selector9.IN3
+modo => Selector10.IN3
+modo => Selector11.IN3
+modo => Selector12.IN3
+modo => Selector13.IN3
+modo => Selector14.IN3
+modo => Selector15.IN1
+modo => Selector0.IN1
+modo => Selector1.IN1
+modo => Selector2.IN1
+modo => Selector3.IN1
+modo => Selector4.IN1
+modo => Selector5.IN1
+modo => Selector6.IN1
+modo => Selector7.IN1
+modo => Selector8.IN1
+modo => Selector9.IN1
+modo => Selector10.IN1
+modo => Selector11.IN1
+modo => Selector12.IN1
+modo => Selector13.IN1
+modo => Selector14.IN1
+reset => contador~3.DATAIN
+seg1 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+seg2 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg3 <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg4 <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg5 <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg6 <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg7 <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+

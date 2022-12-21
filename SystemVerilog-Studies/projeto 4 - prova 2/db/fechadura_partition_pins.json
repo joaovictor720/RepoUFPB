@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led_verde",
+					"strict" : false
+				},
+				{
+					"name" : "led_vermelho",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "inserir",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

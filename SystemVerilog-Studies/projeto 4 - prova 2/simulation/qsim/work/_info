@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/20.1/Quartus Projects/projeto 4 - prova 2/simulation/qsim
+vfechadura
+Z1 !s110 1652571581
+!i10b 1
+!s100 BhmfdLORUTmg86CDIlmdc2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;08HhWWi?@VO_FEdPFVL?3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1652571580
+8fechadura.vo
+Ffechadura.vo
+!i122 22
+L0 32 2117
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1652571581.000000
+!s107 fechadura.vo|
+!s90 -work|work|fechadura.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vfechadura_vlg_vec_tst
+R1
+!i10b 1
+!s100 TA<bcODXSiC[O_^3=a9Sd1
+R2
+IDDkTmRCd==0OZ]f0bGBUZ1
+R3
+R0
+w1652571579
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 23
+L0 30 39
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

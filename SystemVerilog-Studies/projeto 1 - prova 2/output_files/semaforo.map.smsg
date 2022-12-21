@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at semaforo.sv(62): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/20.1/Quartus Projects/projeto 1 - prova 2/semaforo.sv Line: 62

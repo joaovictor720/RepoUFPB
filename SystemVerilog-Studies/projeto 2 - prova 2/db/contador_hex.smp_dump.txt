@@ -1,0 +1,19 @@
+
+State Machine - |contador_hex|contador
+Name contador.nove contador.C contador.um contador.F contador.d contador.seis contador.quatro contador.b contador.zero contador.oito contador.E contador.A contador.tres contador.sete contador.cinco contador.dois 
+contador.dois 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+contador.cinco 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+contador.sete 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+contador.tres 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+contador.A 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+contador.E 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+contador.oito 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+contador.zero 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+contador.b 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+contador.quatro 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+contador.seis 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+contador.d 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+contador.F 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+contador.um 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+contador.C 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+contador.nove 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

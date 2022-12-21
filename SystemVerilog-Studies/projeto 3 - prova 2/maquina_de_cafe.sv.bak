@@ -1,0 +1,91 @@
+module maquina (input [1:0] tipo, input clk, rst, output logic c, l, f);
+
+	int l_cafe = 0 ,l_leite = 0; 
+
+	logic [1:0]state;
+	
+	parameter enchendo_cafe = 0,
+				 encheu_cafe = 1, 
+				 enchendo_leite = 2, 
+				 encheu_leite = 3;
+
+	always_comb begin
+		case(state)
+		enchendo_cafe:
+			begin
+			c = 1; f = 0; l = 0;
+			end
+			
+		encheu_cafe:
+			begin
+			c = 0; f = 1; l = 0;
+			
+		if (tipo == 2'b10)
+				begin
+			c = 0; f = 0; l = 0;
+		end
+	end
+			
+		enchendo_leite:
+			begin
+			c = 0; f = 0; l = 1;
+			end
+			
+		encheu_leite:
+			begin
+			c = 0; f = 1; l = 0;
+			end
+			
+		endcase
+	end
+			
+	always_ff @ (posedge clk , negedge rst) begin
+	
+		if(~rst)
+			begin
+			state <= enchendo_cafe;
+			end
+		else
+			case(state)
+			
+			encheu_cafe:
+				begin
+				l_cafe = 0;
+				if (tipo ==2'b10)
+					begin
+					state <= enchendo_leite;
+					end
+				else
+					begin
+					state <= enchendo_cafe;
+					end
+				end
+				
+			enchendo_cafe:
+				begin
+				l_cafe += 25;
+				if ((tipo == 2'b01 && l_cafe == 100) || (tipo == 2'b00 && l_cafe == 50))
+					begin
+					state <= encheu_cafe;
+					end
+				end
+			
+				
+			encheu_leite:
+				begin
+				l_leite = 0;
+				state <= enchendo_cafe;
+				end
+				
+			enchendo_leite:
+				begin
+				l_leite += 25;
+				if (l_leite == 50)
+					begin
+					state <= encheu_leite;
+					end
+				end
+				
+		endcase		
+	end
+	endmodule
